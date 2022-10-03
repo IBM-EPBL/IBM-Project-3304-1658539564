@@ -1,0 +1,68 @@
+<html>
+	<head>
+		<title>RESUME</title>
+		<style>
+			body{
+  				padding: 20px;
+  				font-family: Arial;
+			}
+			div.head{
+				padding-left: 40px;
+				color: white;
+				background-color: mediumseagreen;
+				border-style: outset;
+				border-color: grey;
+				border-width: 5px;
+				font-family: Verdana;
+				font-size: 20;
+			}
+			.fg{
+				font-size: 30;
+				font-weight: bold;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="head">
+			<p><span class='fg'>SRIVANTH.A</span></p>
+			<p> <b><u>Mobile:</u></b> +91-7010198236 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <b><u>Email:</u></b> srivanth04@gmail.com</p>
+		</div>
+	<p>Current Location Chennai</p>
+		<pre>
+<b>PERSONAL DETAILS</b>
+<img src=SRIVANTH.jpg>
+SRIVANTH.A 
+7010198236
+ELECTRONICS AND COMMUNICATION ENGINEER
+srivanth04@gmail.com 
+<b>Education:</b>
+2023- B.E ECE
+2019 -SSE
+2017 -SE
+Sri venkateswara college of engineering with 80%
+Velammal matriculation higher secondary school with 73%
+Velammal matriculation higher secondary school with 91%
+<b>PROFFESIONAL SKILLS:</b>
+C Programming 
+Matlab
+Web devolopment
+Python 
+Ms office 
+Problem solving
+<b>Language:</b>
+ENGLISH
+TAMIL
+<b>Personal skills:</b>
+logical, analytical and computational skills Strong motivational 
+leadership skills Ability to work under pressure collaborative and facilitated
+<b>Internship:</b>
+ Internshala-Worked as intern in the domain Web devolopment. 
+IPantech virtual-Worked as intern in domain IOT protocols and cloud interface using arduino.
+Workshop-Actively participated in one of the leading workshop on introduction to Matlab for beginners
+
+<b>Acheivements:</b>
+Bagged Second place in Makeathon by making blood clot detection using
+convolution neural network by image processing.</pre>
+<div class='foot'> Links: </div>
+
+	</body>
