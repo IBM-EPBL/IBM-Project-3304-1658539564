@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Meeting Chatbot</title>
+</head>
+<body>
+
+<h1><b><center>Hello, Welcome to ABCD HOSPITALS</center></b></h1>
+<script>
+  window.watsonAssistantChatOptions = {
+    integrationID: "af39c71f-00c9-47bd-b94a-1ddf3e125c6f", // The ID of this integration.
+    region: "us-south", // The region your integration is hosted in.
+    serviceInstanceID: "4b1485b7-4d3a-49cf-8265-7dcdc611afa8", // The ID of your service instance.
+    onLoad: function(instance) { instance.render(); }
+  };
+  setTimeout(function(){
+    const t=document.createElement('script');
+    t.src="https://web-chat.global.assistant.watson.appdomain.cloud/versions/" + (window.watsonAssistantChatOptions.clientVersion || 'latest') + "/WatsonAssistantChatEntry.js";
+    document.head.appendChild(t);
+  });
+</script>
+
+</body>
+</html>
