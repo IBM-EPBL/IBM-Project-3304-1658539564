@@ -4,12 +4,9 @@ import ibm_db
 import sendgrid
 from sendgrid.helpers.mail import Mail, Email, To, Content
 
-SENDGRID_API_KEY = "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"  # sendgrid
 
-conn = ibm_db.connect(
-    "DATABASE=bludb;HOSTNAME=ea286ace-86c7-4d5b-8580-3fbfa46b1c66.bs2io90l08kqb1od8lcg.databases.appdomain.cloud;PORT"
-    "=31505;SECURITY=SSL;SSLServerCertificate=DigiCertGlobalRootCA.crt;UID=xnc98967;PWD=wQioPYLq4Oanh0Vm",
-    '', '')
+conn = ibm_db.connect("DATABASE=bludb;HOSTNAME=2f3279a5-73d1-4859-88f0-a6c3e6b4b907.c3n41cmd0nqnrk39u98g.databases.appdomain.cloud;PORT=30756;SECURITY=SSL;SSLServerCertificate=DigiCertGlobalRootCA.crt;UID=ldc94834;PWD=xbttQ7psO6jrzlbE",'','')
+
 
 print(conn)
 
@@ -20,9 +17,10 @@ app.secret_key = "\xfd{H\xe5<\x95\xf9\xe3\x96.5\xd1\x01O<!\xd5\xa2\xa0\x9fR"
 
 # sendgrid
 def send_mail(email):
-    sg = sendgrid.SendGridAPIClient(SENDGRID_API_KEY)
-    from_email = Email("xxxxxxxxxxxxxxxxxx@gmail.com")  # Change to your verified sender
-    to_email = To(email)  # Change to your recipient
+    sg = sendgrid.SendGridAPIClient(api_key='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')
+
+    from_email = Email("nalaiyathiranibm@gmail.com")  # Change to your verified sender
+    to_email = To("srimannarayan2001@gmail.com")  # Change to your recipient    
     subject = "Nutrition is a basic human need and a prerequisite for healthy life"
     content = Content("text/plain",
                       "Thank you for creating an account on our platform. Now you can utilise our platform "
